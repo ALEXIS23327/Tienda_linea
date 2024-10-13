@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Registro</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <form class="registro-form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmar-correo">Confirmar Correo Electrónico:</label>
+                <input type="email" id="confirmar-correo" name="confirmar-correo" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmar-password">Confirmar Contraseña:</label>
+                <input type="password" id="confirmar-password" name="confirmar-password" required>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GamesMexDogo.</p>
+    </footer>
+</body>
+</html>
+
